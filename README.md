@@ -13,6 +13,6 @@
 
 ## Author
 
-**2Home** © [聆歌](https://github.com/yanjun0501), Released under the [MIT](./LICENSE) License.<br>
+**2Home** © [聆歌](https://github.com/yanjun0501)<br>
 
 > Blog [@聆歌](https://yanjun-forever.cn) · GitHub [@聆歌](https://github.com/yanjun0501)
