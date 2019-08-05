@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://avatars2.githubusercontent.com/u/19325842?s=460&v=4" alt="RSSHub" width="100">
+<img src="https://avatars2.githubusercontent.com/u/19325842?s=460&v=4" alt="2Home" width="100">
 </p>
 <h1 align="center">2Home</h1>
 
