@@ -11,7 +11,7 @@
 
 ## Usage
 
-[使用文档](https://yanjun-forever.cn/technology/fe/2Home%20%E2%80%94%E2%80%94%20%E4%B8%8B%E7%8F%AD%E6%8F%90%E9%86%92%E5%B0%8F%E7%8C%AA%E6%89%8B.html)
+[使用文档](https://yanjun-forever.cn/technology/fe/2Home%20%E2%80%94%E2%80%94%20%E6%8F%90%E9%86%92%E4%B8%8B%E7%8F%AD%E5%B0%8F%E7%8C%AA%E6%89%8B.html)
 点击配置扩展设置
 ```json
 {
