@@ -1,0 +1,6 @@
+{
+  "git.ignoreLimitWarning": true,
+  "terminal.integrated.env.osx": {
+    "PATH": "/Users/yanjun/.sdkman/candidates/springboot/current/bin:/Users/yanjun/git/nvs/default/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Android Studio.app/Contents/gradle/gradle-4.4/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/bin:/usr/local/mysql/bin:/Users/yanjun/Downloads/apache-maven-3.6.1/bin"
+  }
+}

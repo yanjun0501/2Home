@@ -1,8 +1,11 @@
 {
-	"name": "2home",
+  "name": "2Home",
+  "publisher": "yanjun0501",
 	"displayName": "2Home",
-	"description": "Go off work!We go home!",
-	"version": "0.0.1",
+  "description": "一个用以下班倒计时的提醒小猪手~~~",
+  "repository": "https://github.com/yanjun0501/2Home",
+  "version": "0.0.3",
+  "icon": "img/icon.png",
 	"engines": {
 		"vscode": "^1.36.0"
 	},
@@ -10,29 +13,54 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"*"
 	],
-	"main": "./extension.js",
+	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
-			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
-			}
-		]
+      {
+        "title": "How Long To Go Home",
+        "command": "extension.toHome"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "下班时间设置",
+      "properties": {
+        "toHomeDate.hours": {
+          "type": "number",
+          "default": 18,
+          "description": "下班时间(hours)"
+        },
+        "toHomeDate.minutes": {
+          "type": "number",
+          "default": 0,
+          "description": "下班时间(minutes)"
+        },
+        "toHomeDate.seconds": {
+          "type": "number",
+          "default": 0,
+          "description": "下班时间(seconds)"
+        }
+      }
+    }
 	},
 	"scripts": {
-		"test": "node ./test/runTest.js"
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile",
+		"test": "node ./out/test/runTest.js"
 	},
 	"devDependencies": {
 		"@types/glob": "^7.1.1",
 		"@types/mocha": "^5.2.6",
 		"@types/node": "^10.12.21",
 		"@types/vscode": "^1.36.0",
-		"eslint": "^5.13.0",
 		"glob": "^7.1.4",
 		"mocha": "^6.1.4",
 		"typescript": "^3.3.1",
+		"tslint": "^5.12.1",
 		"vscode-test": "^1.0.2"
 	}
 }
