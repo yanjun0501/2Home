@@ -4,7 +4,7 @@
 	"displayName": "2Home",
   "description": "一个用以下班倒计时的提醒小猪手~~~",
   "repository": "https://github.com/yanjun0501/2Home",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "icon": "img/icon.png",
 	"engines": {
 		"vscode": "^1.36.0"

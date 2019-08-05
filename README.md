@@ -10,6 +10,15 @@
 基于VSCode开发的，可定制的，下班倒计时提醒工具
 
 [使用文档](https://yanjun-forever.cn/)
+点击配置扩展设置
+```json
+{
+  "To Home Date:hours": "距离下班剩余小时数",
+  "To Home Date:minutes": "距离下班剩余分钟数",
+  "To Home Date:seconds": "距离下班剩余秒数"
+}
+
+```
 
 ## Author
 
