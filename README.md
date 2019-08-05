@@ -14,6 +14,5 @@
 ## Author
 
 **2Home** © [聆歌](https://github.com/yanjun0501), Released under the [MIT](./LICENSE) License.<br>
-Authored and maintained by DIYgod with help from contributors ([list](https://github.com/yanjun0501/2Home/contributors)).
 
 > Blog [@聆歌](https://yanjun-forever.cn) · GitHub [@聆歌](https://github.com/yanjun0501)
